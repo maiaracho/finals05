@@ -81,3 +81,4 @@ function changeQuantity(id, amount) {
 document.addEventListener("DOMContentLoaded", updateCartIcon);
 
 
+
