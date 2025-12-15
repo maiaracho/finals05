@@ -26,7 +26,7 @@ function updateCartIcon() {
     // Make the cart icon clickable
     cartIcon.style.cursor = "pointer";
     cartIcon.onclick = () => {
-        window.location.href = "products/cart.html"; // redirect to cart page
+        window.location.href = "/products/cart.html"; // redirect to cart page
     };
 }
 
@@ -79,4 +79,5 @@ function changeQuantity(id, amount) {
 }
 
 document.addEventListener("DOMContentLoaded", updateCartIcon);
+
 
